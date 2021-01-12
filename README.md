@@ -1,12 +1,33 @@
-# cpsc410_project1_team3
-Project 1 Team Repository
+## Hi, this is PacMan Maze Creator
 
-Hi, this is PacMan Maze Creator for Team 3. 
+This project is a domain specific language project.
 
-Here we highlight a few important details for you to be able to run our game.
+It consists of all the language design steps: Language Grammar Design, Tokenization, Parsing, Validation and Evaluation.
+The grammar follows best practices of:<br/> 
+<br/> 
+1. Not being ambiguous<br/> 
+2. No left-recursion<br/> 
+3. Locally deterministic<br/> 
+
+This allows a simple tokenizing method of splitting the input using constant literals.<br/> 
+
+This further allows the use of a "Single Symbol Lookahead" parser (implementing checkNextToken, getNextToken, getAndCheckNextToken) <br/> 
+<br/> 
+
+Files map as follows: <br/> 
+-Files ending with "tokenizer" are tokenizing files <br/> 
+-Files ending with "parser" are parsing files <br/> 
+-Files ending with "checker" are validating files <br/> 
+-Files ending with "evaluator" are evaluating files <br/>
+
+The folder under PMLGraphics implements all the game graphics. Graphic elements are mapped to elements that are represented as classes in the AST representation.
+
+Files can be found in src: "src/main/java/PacManDSL/"
+
+Here are a few important details for you to be able to run our game.
 
 1. Version of Java.<br/> 
-  -We implemented this project using version 14 and 15, so any of these should work.
+  -This project is implemented using version 14 and 15, so any of these should work.
   
 2. Please set the 'src' directory as the source root file.<br/> 
   -Right click on 'src' -> Mark Directory As -> Sources Root
