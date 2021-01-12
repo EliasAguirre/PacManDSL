@@ -1,5 +1,17 @@
 ## Hi, this is PacMan Maze Creator
 
+This project is a domain specific language project.
+
+It consists of all the language design steps: Language Grammar Design, Tokenization, Parsing, Validation and Evaluation.
+
+Files map as follows:
+-Files ending with "tokenizer" are tokenizing files
+-Files ending with "parser" are parsing files
+-Files ending with "checker" are validating files
+-Files ending with "evaluator" are evaluating files
+
+Files can be found in src: "src/main/java/PacManDSL/"
+
 Here are a few important details for you to be able to run our game.
 
 1. Version of Java.<br/> 
