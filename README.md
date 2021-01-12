@@ -9,7 +9,7 @@ The grammar follows best practices of:<br/>
 2. No left-recursion<br/> 
 3. Locally deterministic<br/> 
 
-This allows a simple tokenizing method or splitting input using constant literals.<br/> 
+This allows a simple tokenizing method of splitting the input using constant literals.<br/> 
 
 This further allows us to use "Single Symbol Lookahead" parsing (implementing checkNextToken, getNextToken, getAndCheckNextToken) <br/> 
 <br/> 
