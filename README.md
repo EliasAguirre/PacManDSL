@@ -24,6 +24,11 @@ The folder under PMLGraphics implements all the game graphics. Graphic elements 
 
 Files can be found in src: "src/main/java/PacManDSL/"
 
+Progression:
+Phase 1: ![](PacMan1.gif)
+
+Phase 2: ![](PacMan2.gif)
+
 Here are a few important details for you to be able to run our game.
 
 1. Version of Java.<br/> 
