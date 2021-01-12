@@ -11,7 +11,7 @@ The grammar follows best practices of:<br/>
 
 This allows a simple tokenizing method of splitting the input using constant literals.<br/> 
 
-This further allows us to use "Single Symbol Lookahead" parsing (implementing checkNextToken, getNextToken, getAndCheckNextToken) <br/> 
+This further allows the use of a "Single Symbol Lookahead" parser (implementing checkNextToken, getNextToken, getAndCheckNextToken) <br/> 
 <br/> 
 
 Files map as follows: <br/> 
@@ -20,7 +20,7 @@ Files map as follows: <br/>
 -Files ending with "checker" are validating files <br/> 
 -Files ending with "evaluator" are evaluating files <br/>
 
-The folder under PMLGraphics implements all the game graphics. Graphic elements are mapped to elements
+The folder under PMLGraphics implements all the game graphics. Graphic elements are mapped to elements that are represented as classes in the AST representation.
 
 Files can be found in src: "src/main/java/PacManDSL/"
 
