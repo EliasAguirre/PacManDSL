@@ -1,4 +1,4 @@
-Hi, this is PacMan Maze Creator
+## Hi, this is PacMan Maze Creator
 
 Here are a few important details for you to be able to run our game.
 
