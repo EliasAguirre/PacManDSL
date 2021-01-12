@@ -1,12 +1,9 @@
-# cpsc410_project1_team3
-Project 1 Team Repository
+Hi, this is PacMan Maze Creator
 
-Hi, this is PacMan Maze Creator for Team 3. 
-
-Here we highlight a few important details for you to be able to run our game.
+Here are a few important details for you to be able to run our game.
 
 1. Version of Java.<br/> 
-  -We implemented this project using version 14 and 15, so any of these should work.
+  -This project is implemented using version 14 and 15, so any of these should work.
   
 2. Please set the 'src' directory as the source root file.<br/> 
   -Right click on 'src' -> Mark Directory As -> Sources Root
